@@ -75,7 +75,7 @@ button:active {
 
 #random-list {
   display: none;
-  list-style: none;
+  list-style: decimal;
   padding: 1rem;
 }
 
@@ -84,6 +84,32 @@ button:active {
 }
 
 #random-list li {
+  margin: 1rem;
+  color: #4d4d4d;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+#user-input,
+#normal-list,
+#filter {
+  width: 50rem;
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
+#normal-list {
+  display: none;
+  list-style: decimal;
+  padding: 1rem;
+}
+
+#normal-list.visible {
+  display: block;
+}
+
+#normal-list li {
   margin: 1rem;
   color: #4d4d4d;
   font-weight: bold;
